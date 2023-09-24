@@ -1,0 +1,36 @@
+@use 'foundation' as *; 
+
+.top-contact {
+  background-image: url(/images/common/Works-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-contact__title {
+  text-align: right;
+}
+
+
+.top-contact__title::after {
+  content: ""; /* contentプロパティは必要ですが、中身は空です */
+  background-color: white; /* 背景色（例: 黒色） */
+}
+
+.top-contact__comment {
+  margin-top: prem(80);
+  text-align: center;
+}
+
+.top-contact__text {
+  fz
+}
+
+.top-contact__btn {
+  margin-top: prem(80);
+  text-align: center;
+}
+
+.top-contact-under__title {
+  opacity: 0.3;
+}

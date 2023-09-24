@@ -1,0 +1,32 @@
+@use 'foundation' as *; 
+
+.section-titles {
+  display: flex;
+  gap: prem(30);
+}
+
+.top-works {
+  background-image: url(/images/common/mv-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.section-titles p::before {
+  content: ""; /* contentプロパティは必要ですが、中身は空です */
+  width: prem(200); /* 幅 */
+  height: prem(1); /* 高さ */
+  // position: absolute;
+  // top: prem(48);
+  display: inline-block; /* インラインブロック要素として表示 */
+  background-color: white; /* 背景色（例: 黒色） */
+}
+
+.top-works__title {
+  text-align: right;
+}
+
+.top-works__items {
+  margin-top: prem(80);
+}

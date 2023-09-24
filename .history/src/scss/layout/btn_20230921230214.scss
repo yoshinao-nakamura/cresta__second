@@ -1,0 +1,17 @@
+
+.btn {
+  /* アニメーションの起点とするため relative を指定 */
+  position: relative;
+  /* ボタンの形状 */
+  text-decoration: none;
+  display: inline-block;
+  width: rem(200);
+  // height: 3.375rem;
+  border: rem(1) solid #408F95; /* ボーダーの色と太さ */
+  padding: rem(16) 0 rem(16) rem(40);
+  text-align: left;
+  outline: none;
+  background-color: #408F95;
+  /* アニメーションの指定 */
+  transition: ease 0.2s;
+}

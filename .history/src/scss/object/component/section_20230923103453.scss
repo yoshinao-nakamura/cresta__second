@@ -1,0 +1,35 @@
+@use 'foundation' as *;
+
+.section__title {
+  @include mq(md) {
+    font-size: prem(30);
+  }
+  font-size: prem(60);
+  font-family: $font-family-en;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+.section__title::after {
+  @include mq(md) {
+    width: prem(90);
+    height: prem(3);
+  }
+  content: ""; /* contentプロパティは必要ですが、中身は空です */
+  width: prem(200); /* 幅 */
+  height: prem(6); /* 高さ */
+  display: inline-block; /* インラインブロック要素として表示 */
+  background-color: black; /* 背景色（例: 黒色） */
+  margin-left: prem(30);
+  vertical-align: middle;
+}
+
+.section-under__title {
+  @include mq(md) {
+    font-size: prem(40);
+    margin-top: prem(40);
+  }
+  margin-top: prem(70);
+  font-size: prem(90);
+  font-weight: bold;
+}

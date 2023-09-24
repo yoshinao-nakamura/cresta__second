@@ -1,0 +1,10 @@
+@use 'foundation' as *; 
+
+.top-concept-layout {
+  padding-top: prem(104);
+  padding-bottom: prem(70);
+  margin-top: prem(100);
+  @include mq(md) {
+    margin-top: prem(40);
+  }
+}

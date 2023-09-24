@@ -1,0 +1,2 @@
+@charset "UTF-8";@use 'foundation' as *;.top-contact{background-image:url(/images/common/Works-back.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}.top-contact__title{text-align:right}.top-contact__btn,.top-contact__comment{margin-top:prem(80);text-align:center}.top-contact__title::after{content:"";background-color:#fff}.top-contact__text{font-size:prem(20)}.top-contact-under__title{opacity:.3}
+/*# sourceMappingURL=top-contact.min.css.map */

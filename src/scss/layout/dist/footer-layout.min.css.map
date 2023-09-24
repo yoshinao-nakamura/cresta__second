@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer-layout.scss"],"names":[],"mappings":"uBACA,eACE,QAAS,SAAS","file":"footer-layout.min.css","sourcesContent":["@use 'foundation' as *; \n\n.footer-layout {\n  padding: prem(30) 0;\n}"]}

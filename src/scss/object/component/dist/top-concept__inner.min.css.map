@@ -1,0 +1,1 @@
+{"version":3,"sources":["top-concept__inner.scss"],"names":[],"mappings":"uBACA,oBACE,UAAW","file":"top-concept__inner.min.css","sourcesContent":["@use 'foundation' as *;\n\n.top-concept__inner {\n  max-width: prem(1100);\n}"]}

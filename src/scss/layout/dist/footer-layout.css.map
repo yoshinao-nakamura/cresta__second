@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["footer-layout.scss"],"sourcesContent":["@use 'foundation' as *; \n\n.footer-layout {\n  padding: prem(30) 0;\n}"],"file":"footer-layout.css"}

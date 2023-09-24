@@ -1,0 +1,2 @@
+@charset "UTF-8";@use 'foundation' as *;.section__title{position:relative;font-size:prem(60);font-weight:700;font-style:italic}.section__title::before{content:"";width:prem(200);height:prem(1);position:absolute;top:prem(48);left:prem(320);display:inline-block;background-color:#000}.section-under__title{font-size:prem(90);font-weight:700}
+/*# sourceMappingURL=section.min.css.map */

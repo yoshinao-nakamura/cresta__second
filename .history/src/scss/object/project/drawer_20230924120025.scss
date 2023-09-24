@@ -1,0 +1,29 @@
+@use 'foundation' as *;
+
+.drawer {
+  padding: prem(290) 0;
+  width: 100%;
+  height: 100vh;
+  background:#282F35;
+  overflow-y: scroll;
+  transition: .6s;
+}
+
+.drawer__nav-item a {
+  padding: prem(10) 0;
+  display: block;
+  font-size: prem(16);
+    font-family: $font-family-en;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+// .fixed {
+//   position: fixed;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+// }

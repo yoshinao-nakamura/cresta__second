@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["top-concept__inner.scss"],"sourcesContent":["@use 'foundation' as *;\n\n.top-concept__inner {\n  max-width: prem(1100);\n}"],"file":"top-concept__inner.css"}

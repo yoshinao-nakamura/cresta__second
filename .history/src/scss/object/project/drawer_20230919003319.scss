@@ -1,0 +1,21 @@
+@use 'foundation' as *;
+
+.drawer {
+  padding: prem(290) 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #642390, #19074A);
+  overflow-y: scroll;
+  transition: .6s;
+}
+
+.drawer__nav-item a {
+  padding: prem(10) 0;
+  display: block;
+  font-size: prem(15);
+  line-height: 1;
+  letter-spacing: 0.005em;
+  text-align: center;
+  text-transform: uppercase;
+
+}

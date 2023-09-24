@@ -1,0 +1,50 @@
+@use 'foundation' as *;
+
+.top-mv {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  min-height: prem(400);
+}
+
+
+.top-mv__titles {
+  position: absolute;
+  top: 65%;
+  transform: translate(-50%,-50%);
+  left: 30%;
+  z-index: 200;
+  text-align: center;
+  width: 100%;
+  @include mq(md) {
+    top: 54%;
+    left: 51%;
+  }
+ }
+
+.top-mv__title {
+  font-size: prem(70);
+  letter-spacing: 0.05em;
+  font-family: $font-family-en;
+  @include mq(md) {
+    font-size: prem(37);
+  }
+}
+
+.top-mv__subtitle {
+  font-size: prem(40);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-top: prem(31);
+    @include mq(md) {
+    font-size: prem(30);
+    margin-top: prem(59);
+  }
+}
+
+.u-mobile {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}

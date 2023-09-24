@@ -1,0 +1,28 @@
+@use 'foundation' as *; 
+
+.cards {
+  @include mq(md) {
+    grid-template-columns: repeat(1,1fr);
+  }
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.card__img {
+  @include mq(md) {
+    aspect-ratio: 480 / 320;
+  }
+  aspect-ratio: 480 / 320;
+}
+
+.card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

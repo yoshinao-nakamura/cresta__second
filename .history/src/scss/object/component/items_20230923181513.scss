@@ -1,0 +1,42 @@
+@use 'foundation' as *; 
+
+.items {
+  @include mq(md) {
+    grid-template-columns: repeat(1,1fr);
+    gap: prem(30);
+    max-width: prem(500);
+  }
+  max-width: prem(1000);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: prem(20);
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #fff;
+  // box-shadow: rem(2) rem(2) rem(10) rgba(0,0,0,0.25);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.item-img {
+  aspect-ratio: 320 / 200;
+}
+
+
+.item-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-text {
+  color: black;
+  padding: prem(25) prem(20);
+  line-height: 1.875;
+  letter-spacing: 0.05em;
+}
+

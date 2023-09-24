@@ -1,0 +1,8 @@
+@use 'foundation' as *;
+
+.top--layout {
+  margin-top: prem(100);
+  @include mq(md) {
+    margin-top: prem(40);
+  }
+}

@@ -1,0 +1,37 @@
+@use 'foundation' as *; 
+
+.top-works {
+  background-image: url(/images/common/Works-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-works__title {
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: capitalize; 
+  margin-left: prem(48);
+}
+
+.top-works__title::after {
+  content: ""; /* contentプロパティは必要ですが、中身は空です */
+  background-color: white; /* 背景色（例: 黒色） */
+}
+
+
+.top-works__items {
+  @include mq(md) {
+    margin-top: prem(50);
+  }
+  margin-top: prem(80);
+}
+
+.top-works__btn {
+  margin-top: prem(80);
+  text-align: center;
+}
+
+.top-works-under__title {
+  opacity: 0.3;
+}

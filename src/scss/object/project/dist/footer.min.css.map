@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer.scss"],"names":[],"mappings":"uBACA,eACE,WAAY,OAGd,MACE,MAAO,KACP,UAAW","file":"footer.min.css","sourcesContent":["@use 'foundation' as *; \n\n.footer__small {\n  text-align: center;\n}\n\nsmall {\n  color: black;\n  font-size: prem(14);\n}"]}

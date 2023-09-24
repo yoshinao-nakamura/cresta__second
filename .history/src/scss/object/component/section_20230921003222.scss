@@ -1,0 +1,13 @@
+@use 'foundation' as *;
+
+.section__title {
+  font-size: prem(60);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-under__title {
+  font-size: prem(90);
+  font-weight: bold;
+  font-style: italic;
+}

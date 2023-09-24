@@ -1,0 +1,24 @@
+@use 'foundation' as *; 
+
+
+
+.top-works {
+  background-image: url(/images/common/mv-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-works__title {
+  text-align: right;
+}
+
+.top-works__title::after {
+  content: ""; /* contentプロパティは必要ですが、中身は空です */
+  background-color: white; /* 背景色（例: 黒色） */
+}
+
+
+.top-works__items {
+  margin-top: prem(80);
+}

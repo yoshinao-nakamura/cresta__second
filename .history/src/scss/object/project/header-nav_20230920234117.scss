@@ -1,0 +1,23 @@
+@use 'foundation' as *;
+
+.header-nav__items {
+  height: inherit;
+  display: flex;
+}
+
+.header-nav__item {
+  height: inherit;
+}
+
+.header-nav__item a {
+  padding: 0 prem(15);
+  display: flex;
+  align-items: center;
+  height: inherit;
+  font-size: prem(16);
+  font-family: $font-family-en;
+  font-weight: ;
+  line-height: 1;
+  letter-spacing: 0.005em;
+  text-transform: capitalize;
+}

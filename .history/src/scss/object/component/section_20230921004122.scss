@@ -1,0 +1,24 @@
+@use 'foundation' as *;
+
+.section__title {
+  position: relative;
+  font-size: prem(60);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section__title::before {
+  content: ""; /* contentプロパティは必要ですが、中身は空です */
+  width: prem(200); /* 幅 */
+  height: prem(1); /* 高さ */
+  position: absolute;
+  
+  margin-left: prem(30); /* 左のマージン */
+  display: inline-block; /* インラインブロック要素として表示 */
+  background-color: black; /* 背景色（例: 黒色） */
+}
+
+.section-under__title {
+  font-size: prem(90);
+  font-weight: bold;
+}

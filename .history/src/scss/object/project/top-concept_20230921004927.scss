@@ -1,0 +1,28 @@
+@use 'foundation' as *;
+
+.top-concept__inner {
+  max-width: prem(1100);
+  color: black;
+}
+
+.top-concept__title {
+  color: black;
+}
+
+.top-concept__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-concept__text {
+  max-width: prem(440);
+}
+
+.top-concept__img {
+  aspect-ratio: 440 / 240;
+}
+
+.top-concept__img img {
+  
+
+}

@@ -1,0 +1,2 @@
+.header-nav__item a,.header-nav__items{display:flex;height:inherit}@use 'foundation' as *;.header-nav__item{height:inherit}.header-nav__item a{padding:0 prem(15);align-items:center;font-size:prem(16);font-family:Noto Serif;font-weight:Bold Italic;line-height:1;letter-spacing:.005em;text-transform:capitalize}
+/*# sourceMappingURL=header-nav.min.css.map */

@@ -1,0 +1,68 @@
+@use 'foundation' as *;
+
+.header {
+  height: prem(64); 
+  background-color: transparent;
+}
+
+.header__inner {
+  height: inherit;
+  padding: 0 prem(120);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include mq(md) {
+    padding: 0 prem(20);
+  }
+}
+
+
+.header__logo {
+  max-width: prem(160);
+  width: 100%;
+}
+
+.header__logo a {
+  display: block;
+}
+
+.header__logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.header__nav {
+  height: inherit;
+  display: block;
+  @include mq(md) {
+    display: none;
+  }
+}
+
+
+.header__hamburger {
+  display: none;
+  height: inherit;
+  @include mq(md) {
+    display: block;
+  }
+}
+
+.header__drawer {
+  // display: none;
+  position: absolute;
+  z-index: 900;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.header__drawer.is-open {
+  opacity: 1;
+  visibility: visible;
+}

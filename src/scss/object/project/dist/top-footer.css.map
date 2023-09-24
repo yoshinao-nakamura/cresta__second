@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["top-footer.scss"],"sourcesContent":["@use 'foundation' as *; \n\n.footer__small {\n  text-align: center;\n}\n\nsmall {\n  color: black;\n}"],"file":"top-footer.css"}

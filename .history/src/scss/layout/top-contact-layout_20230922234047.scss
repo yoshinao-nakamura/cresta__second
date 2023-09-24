@@ -1,0 +1,12 @@
+@use 'foundation' as *; 
+
+.top-contact-layout {
+  padding-top: prem(109);
+  padding-bottom: prem(70);
+  margin-top: prem(100);
+  @include mq(md) {
+    margin-top: prem(40);
+    padding-top: prem();
+    padding-bottom: prem(40);
+  }
+}

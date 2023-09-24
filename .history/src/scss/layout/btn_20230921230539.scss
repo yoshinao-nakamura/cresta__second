@@ -1,0 +1,17 @@
+@use 'foundation' as *; 
+
+.btn {
+  /* ボタンの形状 */
+  text-decoration: none;
+  display: inline-block;
+  width: prem(200);
+  border: prem(1) solid #408F95; /* ボーダーの色と太さ */
+  padding: prem(16) 0 prem(16) prem(40);
+  text-align: left;
+  outline: none;
+  background-color: #F7D43F;
+  color: #fff;
+  bor
+  /* アニメーションの指定 */
+  // transition: ease 0.2s;
+}

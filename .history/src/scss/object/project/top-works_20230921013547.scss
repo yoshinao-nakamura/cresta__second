@@ -1,0 +1,8 @@
+@use 'foundation' as *; 
+
+.top-works__inner {
+  background-image: url(/images/common/works-back-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,47 @@
+@use 'foundation' as *;
+
+.top-mv {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.top-mv__titles {
+  position: absolute;
+  top: 65%;
+  transform: translate(-50%,-50%);
+  left: 30%;
+  z-index: 200;
+  text-align: center;
+  width: 100%;
+  @include mq(md) {
+    top: 54%;
+    left: 51%;
+  }
+ }
+
+.top-mv__title {
+  font-size: prem(70);
+  // font-weight: bold;
+  font-family: $font-family-en;
+  @include mq(md) {
+    font-size: prem(37);
+  }
+}
+
+.top-mv__subtitle {
+  font-size: prem(40);
+  font-weight: bold;
+    @include mq(md) {
+    font-size: prem(30);
+    mr
+  }
+}
+
+.u-mobile {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+}

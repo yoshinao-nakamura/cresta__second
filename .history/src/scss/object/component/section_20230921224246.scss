@@ -1,0 +1,19 @@
+@use 'foundation' as *;
+.top-concept__title {
+  gap: prem(30);
+}
+
+
+.section__title {
+  font-size: prem(60);
+  font-family: $font-family-en;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.section-under__title {
+  margin-top: prem(70);
+  font-size: prem(90);
+  font-weight: bold;
+}

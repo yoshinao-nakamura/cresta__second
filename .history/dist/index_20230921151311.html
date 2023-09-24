@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 電話番号の自動検出と変換を無効にする -->
+  <meta name="format-detection" content="telephone=no" />
+
+  <title>クリスタ中級</title>
+  <meta name="description" content="トップページの説明" />
+  <meta name="keywords" content="キーワード" />
+
+  <!-- ogp -->
+  <meta property="og:title" content="サイト名" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="サイトのドメイン" />
+  <meta property="og:image" content="OGP IMAGE" />
+  <meta property="og:site_name" content="サイトのドメイン" />
+  <meta property="og:description" content="トップページの説明" />
+  <!-- フォンツ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <!-- ファビコン -->
+  <link rel="”icon”" href="">
+  <link rel="apple-touch-icon" href="">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+<body>
+
+  <header class="header header-layout">
+    <div class="header__inner inner">
+      <h1 class="header__logo">
+        <a href="">
+          <img src="./images/common/header-logo.svg" alt="pon-design">
+        </a>
+      </h1>
+      <nav class="header__nav header-nav">
+        <ul class="header-nav__items">
+          <li class="header-nav__item">
+            <a href="">concept</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="">service</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="">works</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="">contact</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <button class="header__hamburger hamburger js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+  
+      <div class="header__drawer drawer js-drawer">
+        <nav class="drawer__nav">
+          <ul class="drawer__nav-items">
+            <li class="drawer__nav-item">
+              <a href="">concept</a>
+            </li>
+            <li class="drawer__nav-item">
+              <a href="">service</a>
+            </li>
+            <li class="drawer__nav-item">
+              <a href="">works</a>
+            </li>
+            <li class="drawer__nav-item">
+              <a href="">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+<main>
+  <section class="top-mv">
+    <div class="top-mv__inner">
+      <div class="top-mv__titles">
+        <h2 class="top-mv__title">Design for Smile.</h2>
+        <p class="top-mv__subtitle">快適なオフィスをデザインする</p>
+      </div>
+      <div class="splide" role="group" aria-label="ズームしながらフェード">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <picture>
+                <!-- <source srcset="./assets/images/common/mv_sp-1.png" media="(max-width: 768px)" type="image/png"> -->
+                <img src="./images/common/mv-1.jpg" alt=”代替テキスト”>
+              </picture>
+            </div>
+            <div class="splide__slide">
+              <picture>
+                <!-- <source srcset="./assets/images/common/mv_sp-2.png" media="(max-width: 768px)" type="image/png"> -->
+                <img src="./images/common/mv-2.jpg" alt=”代替テキスト”>
+              </picture>
+            </div>
+            <div class="splide__slide">
+              <picture>
+                <!-- <source srcset="./assets/images/common/mv_sp-3.png" media="(max-width: 768px)" type="image/png"> -->
+                <img src="./images/common/mv-3.jpg" alt=”代替テキスト”>
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="top-concept top-concept-layout">
+    <div class="top-concept__inner inner">
+      <h3 class="top-concept__title section__title">concept</h3>
+      <p class="top-concept__sub-title section__sub-title">“働きたくなる空間”をデザインすることで<br>人々を幸せにする。</p>
+      <div class="top-concept__block">
+        <p class="top-concept__text">私たちは、オフィスに特化した空間デザイン専門としております。その理由は、「働きたくなる空間で仕事ができれば多くの人を幸せにできるのではないか」と考えるためです。そんな想いの株式会社Cresta Designだからこそできる空間デザインを提供させていただきます。</p>
+        <div class="top-concept__img">
+          <img src="./images/common/concept-img.jpg" alt="">
+        </div>
+      </div>
+      <h4 class="top-concept-under__title section-under__title">Our Concept</h4>
+    </div>
+  </section>
+
+  <section class="top-works top-works-layout">
+    <div class="top-works__inner inner">
+      <div class="section-titles">
+        <h3 class="top-works__title section__title">works</h3>
+        <p></p>
+      </div>
+
+      <div class="top-works__items items">
+        
+        <div class="top-works__item item"><a href=""></a>
+          <div class="top-works__item-img item-img">
+            <img src="./images/common/card-img-1.jpg" alt="">
+          </div>
+          <div class="top-works__item-text item-text">
+            <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+          </div>
+        </div>
+
+        <div class="top-works__item  item">
+          <div class="top-works__item-img  item-img">
+            <img src="./images/common/card-img-2.jpg" alt="">
+          </div>
+          <div class="top-works__item-text  item-text">
+            <p>新規サイトを公開しました。今回のサイトは白と黒を基調にした</p>
+          </div>
+        </div>
+
+        <div class="top-works__item  item">
+          <div class="top-works__item-img  item-img">
+            <img src="./images/common/card-img-3.jpg" alt="">
+          </div>
+          <div class="top-works__item-text  item-text">
+            <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+</main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

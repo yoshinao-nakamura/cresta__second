@@ -1,0 +1,10 @@
+@use 'foundation' as *;
+
+.top-works-layout {
+  padding-top: prem(104);
+  pa
+  margin-top: prem(100);
+  @include mq(md) {
+    margin-top: prem(40);
+  }
+}
