@@ -349,6 +349,7 @@ a:hover {
   font-weight: bold;
   font-style: italic;
   letter-spacing: 0.05em;
+  text-transform: capitalize;
 }
 @media screen and (max-width: 767px) {
   .section__title {
@@ -597,8 +598,6 @@ small {
 
 .top-concept__title {
   color: black;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 .top-concept__sub-title {
@@ -685,8 +684,6 @@ small {
 
 .top-contact__title {
   text-align: right;
-  text-transform: capitalize;
-  letter-spacing: 0.1em;
 }
 
 .top-contact__title::after {
@@ -775,7 +772,6 @@ small {
 }
 
 .top-service__title {
-  text-transform: capitalize;
   color: black;
 }
 
@@ -822,8 +818,6 @@ small {
 
 .top-works__title {
   text-align: right;
-  letter-spacing: 0.1em;
-  text-transform: capitalize;
 }
 
 .top-works__title::after {
